@@ -77,7 +77,7 @@ public class Server {
 			for(String name : users.values()) {
 				result += name + " ";
 			}
-			return "200 ok " + result;
+			return "200 ok "+"users " + result;
 		}
 		else {
 			return "100 err server error!\r\n";
